@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/post_logo"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:text="BHIM DASHBOARD"
+        android:textColor="#b02925"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/scan"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:textAlignment="center"
+        android:textColor="@color/postal_yellow"
+        android:background="@color/postalred"
+        android:text="Scan Pacakage barcode"
+        android:textStyle="bold"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+         />
+
+</RelativeLayout>

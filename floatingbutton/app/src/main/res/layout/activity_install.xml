@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/post_logo"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:text="BHIM DASHBOARD"
+        android:textColor="#b02925"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Model"
+        android:textSize="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/postalred"/>
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Manufacturer"
+        android:textSize="20dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/postalred"/>
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/black"/>
+    <TextView
+
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Cost"
+        android:textSize="20dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/postalred"/>
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Date of Request"
+        android:textSize="20dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/postalred"
+        android:id="@+id/textView3" />
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="42dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Does the device already have a barcode"
+        android:textColor="@color/postalred"/>
+
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:background="@color/postalred"
+        android:textColor="@color/postal_yellow"
+
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_below="@+id/textView4"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="78dp"
+        android:text="YES" />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:background="@color/postalred"
+        android:textColor="@color/postal_yellow"
+
+        android:layout_alignBaseline="@+id/yes"
+        android:layout_alignBottom="@+id/yes"
+        android:layout_toEndOf="@+id/yes"
+        android:layout_marginStart="32dp" />
+
+
+</RelativeLayout>
